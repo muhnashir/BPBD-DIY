@@ -93,18 +93,12 @@
                 <div class="col-lg-6 col-xl-6">
                     <div class="banner_text">
                         <div class="banner_text_iner">
-                            <h2 >Melayani Masyarakat 
-                            Yogyakarta</h2>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                            when an unknown printer took a galley of type and scrambled it to make a type 
-                            specimen book. It has survived not only five centuries, but also the leap into 
-                            electronic typesetting, remaining essentially unchanged. It was popularised in 
-                            the 1960s with the release of Letraset sheets containing 
-                            Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p> 
+                            <h2 >BPBD DIY</h2>
+                            <p>Badan Penanggulangan Bencana Daerah</p>
+                            <p>Siap Melayani Masyarakat</p>
                             <!-- <h5>Q.S(Al-Baqarah:195)</h5> -->
-                            <a href="<?= base_url('DonasiOnline') ?>" class="btn_1">Donasi Online </a>
-                            <a class="btn_2 btn-scrool-to" href="#hasilDonasi" >Hasil Donasi </a>
+                            <a href="<?= base_url('Tentangkami') ?>" class="btn_1"> Selengkapnya </a>
+                        <!--     <a class="btn_2 btn-scrool-to" href="#hasilDonasi" >Hasil Donasi </a> -->
                         </div>
                     </div>
                 </div>
@@ -217,7 +211,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                <!-- style="padding-left:145px;" -->
+               style="padding-left:145px;" -->
                     <div class="textimonial_iner owl-carousel">
                         <!--  -->
                     </div>

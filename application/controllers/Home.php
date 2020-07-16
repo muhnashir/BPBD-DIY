@@ -19,4 +19,11 @@ class Home extends CI_Controller {
 		$this->load->view('template/footer',$data);
 		// var_dump($data);
 	}
+
+	public function lapor_bencana()
+	{
+		$this->load->view('template/header');
+		$this->load->view('v_lapor_bencana');
+		$this->load->view('template/footer');
+	}
 }

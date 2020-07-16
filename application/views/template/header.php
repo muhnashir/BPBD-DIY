@@ -58,20 +58,32 @@
                                     <a class="nav-link" href="<?= base_url('News');?> ">Berita</a>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <!-- <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         Dokumentasi
-                                    </a>
+                                    </a> -->
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                         <a class="dropdown-item" href="<?= base_url('Documentations/viewfoto');?> ">Foto</a>
                                         <a class="dropdown-item" href="<?= base_url('Documentations/viewvideo');?> ">Video</a>
                                     </div>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="<?= base_url('Kontak');?> ">Kontak</a>
+                                  <!--   <a class="nav-link" href="">Kontak</a> -->
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="<?= base_url('Mitra_front');?> ">Buletin</a>
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Lapor
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="<?= base_url('lapor/laporan_bencana');?> ">Lapor Bencana</a>
+                                        <a class="dropdown-item" href="<?= base_url('lapor/laporan_pengungsi');?> ">Lapor Pengungsi</a>
+                                    </div>
                                 </li>
+                               
+
+
+
+
                                 <li class="d-none d-lg-block">
                                     <a class="btn_1" href="<?= base_url('Auth'); ?>">Login</a>
                                 </li>

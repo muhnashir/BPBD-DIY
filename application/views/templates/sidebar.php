@@ -67,7 +67,7 @@
                 <!-- Sidebar user panel (optional) -->
                 <div class="user-panel mt-3 pb-3 mb-3 d-flex">
                     <div class="image">
-                        <img src="<?= base_url('') ?>assets/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+                        <img src="<?= base_url('') ?>assets/dist/img/user.png" class="img-circle elevation-2" alt="User Image">
                     </div>
                     <div class="info">
                         <a href="" class="d-block"><?= $this->session->userdata('nama') ?></a>
@@ -86,23 +86,35 @@
                             </a>
                         </li>
 
+                      
+
                         <li class="nav-item">
+                            <a href="<?= base_url('Admin/Lapor/data_bencana') ?>" class="<?= $page=='data_bencana'?'nav-link active' : 'nav-link'; ?>">
+                                <i class="nav-icon fa fa-fw fa-laptop"></i>
+                                <p>
+                                    Data Lapor Bencana
+                                </p>
+                            </a>
+                        </li>
+
+                            <li class="nav-item">
+                            <a href="<?= base_url('Admin/Lapor/data_pengungsi') ?>" class="<?= $page=='data_pengungsi'?'nav-link active' : 'nav-link'; ?>">
+                                <i class="nav-icon fas fa-newspaper"></i>
+                                <p>
+                                    Data Lapor Pengungsi
+                                </p>
+                            </a>
+                        </li>
+
+                        <!--   <li class="nav-item">
                             <a href="" class="<?= $page=='Infografis'?'nav-link active' : 'nav-link'; ?>">
                                 <i class="nav-icon fa fa-fw fa-pencil"></i>
                                 <p>
                                     Infografis
                                 </p>
                             </a>
-                        </li>
+                        </li> -->
 
-                        <li class="nav-item">
-                            <a href="" class="<?= $page=='E-Lapor'?'nav-link active' : 'nav-link'; ?>">
-                                <i class="nav-icon fa fa-fw fa-laptop"></i>
-                                <p>
-                                    E-Lapor
-                                </p>
-                            </a>
-                        </li>
                         <li class="nav-item">
                             <a href="<?=base_url('Admin/Berita')?>" class="<?= $page=='Berita'?'nav-link active' : 'nav-link'; ?>" >
                                 <i class="nav-icon fa fa-fw fa-newspaper"></i>
@@ -140,10 +152,10 @@
                         </li>
                         <li class="nav-item">
                             <a href="pages/gallery.html" class="<?= $page=='Buletin'?'nav-link active' : 'nav-link'; ?>" >
-                                <i class="nav-icon fa fa-fw fa-globe"></i>
+                            <!--     <i class="nav-icon fa fa-fw fa-globe"></i>
                                 <p>
                                      Buletin
-                                </p>
+                                </p> -->
                             </a>
                         </li>
 
@@ -205,10 +217,10 @@
                         <li class="nav-header">AKUN</li>
                         <li class="nav-item">
                             <a href="pages/calendar.html" class="<?= $page=='Profil'?'nav-link active' : 'nav-link'; ?>" >
-                                <i class="nav-icon fa fa-fw fa-user"></i>
+                                <!-- <i class="nav-icon fa fa-fw fa-user"></i>
                                 <p>
                                     Profil
-                                </p>
+                                </p> -->
                             </a>
                         </li>
                         <li class="nav-item">
